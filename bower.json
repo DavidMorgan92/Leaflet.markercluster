@@ -1,27 +1,37 @@
 {
-    "name": "leaflet.markercluster",
-    "version": "1.5.4",
-    "homepage": "https://github.com/Leaflet/Leaflet.markercluster",
-    "authors": [
-        "Dave Leaver <danzel@localhost.geek.nz>"
-    ],
-    "description": "Marker Clustering plugin for Leaflet.",
-    "main": [
-        "dist/leaflet.markercluster-src.js",
-        "dist/MarkerCluster.css",
-        "dist/MarkerCluster.Default.css"
-    ],
-    "license": "MIT",
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components",
-        "example",
-        "spec",
-        "test",
-        "tests"
-    ],
-    "dependencies": {
-        "leaflet": ">= 1.3.1"
-    }
+	"name": "drmorgan-leaflet.markercluster",
+	"version": "1.5.4",
+	"homepage": "https://github.com/DavidMorgan92/Leaflet.markercluster",
+	"authors": [
+		"Dave Leaver <danzel@localhost.geek.nz>",
+		"David Morgan <david.morgan@europe.com>"
+	],
+	"description": "Marker Clustering plugin for Leaflet.",
+	"main": [
+		"dist/leaflet.markercluster-src.js",
+		"dist/MarkerCluster.css",
+		"dist/MarkerCluster.Default.css"
+	],
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"example",
+		"spec",
+		"test",
+		"tests",
+		"build",
+		"dist/WhereAreTheJavascriptFiles.txt",
+		"src",
+		".gitignore",
+		".travis.yml",
+		"CHANGELOG.md",
+		"CONTRIBUTING.md",
+		"ISSUE_TEMPLATE.md",
+		"Jakefile.js",
+		"MIT-LICENCE.txt",
+		"package.json",
+		"package-lock.json"
+	]
 }
